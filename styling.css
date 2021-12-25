@@ -1,0 +1,23 @@
+:root {
+    /* Main Color Scheme (purple) */
+    --color-main: #bf7cff;
+    --color-sat: #c065ff;
+    --color-desat: #be84f1;
+    --color-dark: #9c2bff;
+    --color-html: #9370db;
+    /* Secondary Color Scheme (light blue) */
+    --color-secondary-main: #80daeb;
+    --color-secondary-sat: #73e3f8;
+    --color-secondary-desat: #8bd3e0;
+    --color-secondary-dark: #41c8e1;
+    --color-secondary-html: #87ceeb;
+}
+
+body {
+    background-color: var(--color-secondary-dark);
+}
+
+.contents {
+    background-color: var(--color-main);
+    margin: left 15px right 15px;
+}
